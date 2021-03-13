@@ -9,7 +9,7 @@ import static org.junit.Assert.assertNotEquals;
 public class CalculatorDivideTest {
 
     @Test
-    @TestCase(key = "T3")
+    @TestCase(key = "AAA-T1")
     public void divideTwoNumbersAndPass() {
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.divide(4, 2));
