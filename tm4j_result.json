@@ -1,7 +1,7 @@
 {
   "version" : 1,
   "executions" : [ {
-    "source" : "testcases.CalculatorDivideTest.divideTwoNumbersAndPass",
+    "source" : "com.adaptavist.tm4j.CalculatorDivideTest.divideTwoNumbersAndPass",
     "result" : "Passed",
     "testCase" : {
       "key" : "T3"

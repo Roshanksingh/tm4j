@@ -1,4 +1,4 @@
-package pages;
+package com.adaptavist.tm4j;
 
 public class Calculator {
 

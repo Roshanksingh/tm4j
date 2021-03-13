@@ -1,8 +1,7 @@
-package testcases;
+package com.adaptavist.tm4j;
 
 import com.adaptavist.tm4j.junit.annotation.TestCase;
 import org.junit.Test;
-import pages.Calculator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -14,6 +13,7 @@ public class CalculatorDivideTest {
     public void divideTwoNumbersAndPass() {
         Calculator calculator = new Calculator();
         assertEquals(2, calculator.divide(4, 2));
+        System.out.println("Result = " + calculator.divide(4, 2));
     }
 
     /*@Test
@@ -57,4 +57,5 @@ public class CalculatorDivideTest {
         Calculator calculator = new Calculator();
         assertEquals(1, calculator.divide(4, 2));
     }
-*/}
+*/
+}
